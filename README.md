@@ -1,37 +1,15 @@
-# Online Resume
+# José Pedro Azevedo · Projects
 
-Interactive resume site for José Pedro Azevedo. Plain HTML, CSS and JavaScript: no build step, no dependencies.
+Public portfolio, published with GitHub Pages at **https://surikaze.github.io/jpsa_proj.public/**
 
-**Live at https://surikaze.github.io** (GitHub Pages, deployed from `main`).
+| Project | Live link | Folder |
+|---|---|---|
+| Interactive Resume | https://surikaze.github.io/jpsa_proj.public/resume/ | [`resume/`](resume/) |
 
-## View it locally
+## Adding a project
 
-Double-click `index.html` to open it in your browser.
+1. Create a subfolder with a short, lowercase, hyphenated name (e.g. `risk-dashboard/`) and an `index.html` inside it.
+2. Add an entry to the `PROJECTS` list in the root `index.html`, and a row to the table above.
+3. Run `sync.bat` in the `Claude Projects` folder. The project is live at `https://surikaze.github.io/jpsa_proj.public/<folder>/` a minute or two later.
 
-## Publish changes
-
-Run `sync.bat` in the parent `Claude Projects` folder. It pushes this folder to its own public repo, and GitHub Pages redeploys within a minute or two.
-
-Note: this repo is public. Don't add anything here you wouldn't put on the site.
-
-## Update the content
-
-Edit `js/data.js`. Everything on the page (roles, skills, education, languages, contact) comes from that file.
-
-- Wrap text in `**double asterisks**` to highlight it.
-- Each skill has a `used` list of role ids (`bnp`, `tls`, `nokia-ops`, `ericsson`, `nokia-radio`, `nokia-sup`). That drives the "where I used it" highlighting. Leave it empty for general skills.
-- To replace the downloadable CV, drop the new PDF in `assets/` and update `cvFile`.
-
-## Structure
-
-```
-index.html        page layout
-css/styles.css    styling (light + dark themes)
-js/data.js        resume content
-js/app.js         terminal, timeline, skills explorer, animations
-assets/           downloadable PDF
-```
-
-## Terminal commands
-
-`help`, `whoami`, `experience [n]`, `skills [category]`, `education`, `languages`, `contact`, `cv`, `goto <section>`, `theme <light|dark>`, `scan`, `clear`. A couple of hidden ones too.
+This repo is public: don't add anything you wouldn't put on the site.
