@@ -2,9 +2,17 @@
 
 Interactive resume site for José Pedro Azevedo. Plain HTML, CSS and JavaScript: no build step, no dependencies.
 
-## View it
+**Live at https://surikaze.github.io** (GitHub Pages, deployed from `main`).
+
+## View it locally
 
 Double-click `index.html` to open it in your browser.
+
+## Publish changes
+
+Run `sync.bat` in the parent `Claude Projects` folder. It pushes this folder to its own public repo, and GitHub Pages redeploys within a minute or two.
+
+Note: this repo is public. Don't add anything here you wouldn't put on the site.
 
 ## Update the content
 
