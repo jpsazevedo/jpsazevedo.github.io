@@ -2,7 +2,7 @@
 
 Interactive resume site for José Pedro Azevedo. Plain HTML, CSS and JavaScript: no build step, no dependencies.
 
-**Live at https://surikaze.github.io/jpsa_proj.public/resume/**
+**Live at https://jpsazevedo.github.io/resume/**
 
 ## View it locally
 
@@ -10,7 +10,7 @@ Double-click `index.html` to open it in your browser.
 
 ## Publish changes
 
-Run `sync.bat` in the `Claude Projects` folder. It pushes the `jpsa_proj.public` repo, and GitHub Pages redeploys within a minute or two.
+Run `sync.bat` in the `Claude Projects` folder. It pushes the `jpsazevedo.github.io` repo, and GitHub Pages redeploys within a minute or two.
 
 Note: this repo is public. Don't add anything here you wouldn't put on the site.
 
